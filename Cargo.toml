@@ -40,9 +40,8 @@ version = "0.19.3"
 optional = true
 default-features = false
 
-# we need to restrict funty's version, until we can update bitvec to 0.21
 [dependencies.funty]
-version = ">1.0, <=1.1"
+version = "1.2"
 optional = true
 default-features = false
 
